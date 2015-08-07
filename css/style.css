@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+.clear{
+	clear:both;
+}
+
+.container{
+	width: 100%;
+	max-width: 100%;
+}
+
+.footer-btn{
+	text-align: right;
+}
+
+.coursor-pointer{
+	cursor: pointer;
+}
+
+.header{
+	height: 20px;
+}
+
+.table {
+	width: 100%;
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+
+/* ダイアログ */
+.ui-dialog .ui-dialog-content{
+	background-color: white;
+}
+.ui-dialog .ui-dialog-buttonpane{
+	margin-top :0px;
+}
+
+
+/* tablet タブレットのスタイル */
+@media all and (min-width: 768px) {
+	.container{
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+/* PCのスタイル */
+@media all and (min-width: 1024px) {
+	.container{
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+<!-- ポップアップ設定 -->
+#popup {
+	background-color:white;
+	width:300px;
+	height:200px;
+	color:black;
+}
+
+#popup-contents {
+	width:300px;
+	height:150px;
+}
+
+#popup-footer {
+	width:300px;
+	height:100px;
+	margin-left:100px;
+}
